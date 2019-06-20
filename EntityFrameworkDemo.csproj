@@ -139,6 +139,10 @@
     <Compile Include="Migrations\201906191512279_Create.Designer.cs">
       <DependentUpon>201906191512279_Create.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906200554053_AddNewField.cs" />
+    <Compile Include="Migrations\201906200554053_AddNewField.Designer.cs">
+      <DependentUpon>201906200554053_AddNewField.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Invoice.cs" />
@@ -216,6 +220,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201906191512279_Create.resx">
       <DependentUpon>201906191512279_Create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906200554053_AddNewField.resx">
+      <DependentUpon>201906200554053_AddNewField.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

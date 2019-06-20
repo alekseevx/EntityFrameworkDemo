@@ -13,5 +13,7 @@ namespace EntityFrameworkDemo.Models
         public DateTime EndDate { get; set; }
         public int ClientID { get; set; }
         public virtual Client Client { get; set; }
+
+        public string NewField { get; set; }
     }
 }
